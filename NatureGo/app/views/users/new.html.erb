@@ -1,0 +1,12 @@
+<h1>Create an Account</h1>
+<%= form_for @user do |f| %>
+<%= f.label :name%>
+<%= f.text_field :name %><br/>
+<%= f.label :password%>
+<%= f.text_field :password %><br/>
+<%= f.label :location%>
+<%= f.text_field :location %><br/>
+<%= f.label :nature_lover_level%>
+<%= f.integer :nature_lover_level %><br/>
+<%= f.submit %>
+<% end %>
