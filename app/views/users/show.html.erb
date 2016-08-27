@@ -1,2 +1,9 @@
-<h1>User#show</h1>
-<p>Find me in app/views/user/show.html.erb</p>
+<h1> Welcome!</h1>
+Name:  <%= @user.name %><br>
+Mood: <%= @user.interest %> <br>
+Tickets: <%= @user.location %> <br>
+Height: <%= @user.nature_lover_level %>
+
+
+<%= link_to 'Talk a walk' , organisms_path %>
+<%= link_to 'Log Out' , logout_path %>
