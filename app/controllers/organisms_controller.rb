@@ -9,6 +9,8 @@ class OrganismsController < ApplicationController
 
   def create
     @organism = Organism.create(organism_params)
+    @organism.users << User.find(1)
+    redirect_to organism_path(@organism)
   end
 
   def show
