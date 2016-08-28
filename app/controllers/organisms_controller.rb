@@ -1,4 +1,4 @@
-class OrganismController < ApplicationController
+class OrganismsController < ApplicationController
   def index
     @organisms = Organism.all
   end
@@ -20,6 +20,6 @@ class OrganismController < ApplicationController
 
   private
     def organism_params
-      params.require(:organims).permit(:species,:group,:location)
+      params.require(:organism).permit(:species,:group,:location)
     end
 end
