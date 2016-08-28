@@ -1,2 +1,12 @@
-<h1>Registrations#new</h1>
-<p>Find me in app/views/registrations/new.html.erb</p>
+<h1>Create an Account</h1>
+<%= form_for @user do |f| %>
+<%= f.label :name%>
+<%= f.text_field :name %><br/>
+<%= f.label :password%>
+<%= f.password_field :password %><br/>
+<%= f.label :location%>
+<%= f.text_field :location %><br/>
+<%= f.label :nature_lover_level%>
+<%= f.text_field :nature_lover_level %><br/>
+<%= f.submit %>
+<% end %>
