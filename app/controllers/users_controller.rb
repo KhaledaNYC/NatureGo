@@ -23,6 +23,12 @@ before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def show
   end
+  
+  def edit
+  end
+
+  def update
+  end
 
   def delete
   end

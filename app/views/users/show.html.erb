@@ -2,12 +2,12 @@
 Handle:  <%= @user.username %><br>
 Interest: <%= @user.interest %> <br>
 Location: <%= @user.location %> <br>
-Nature Lover Level: <%= @user.nature_lover_level %><br>
+Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 
 Sightings:<br>
 <% @user.organisms.each do |organism| %>
-<%= link_to organism.species, organism_path(organism) %><br>
+<%= link_to organism.species.upcase!, organism_path(organism) %><br><br>
 <% end  %>
 
-<%= link_to 'Talk a walk' , new_organism_path %><br>
+<strong><%= link_to 'Talk a walk' , new_organism_path %><br>
 <%= link_to 'Sign Out' , signout_path %><br>
