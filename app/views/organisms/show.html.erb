@@ -4,7 +4,7 @@
 Group: <%= @organism.group.capitalize %><br/>
 Sighting Location: <%= @organism.location.capitalize %><br/><br>
 
-User's that have spotted:<%= @organism.species %></br>
+User's that spotted:<%= @organism.species %></br>
 
 <% @organism.users.each do |user| %>
 <%= link_to user.name, user_path(user) %><br>
