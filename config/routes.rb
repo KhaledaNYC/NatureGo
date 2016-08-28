@@ -4,10 +4,12 @@ Rails.application.routes.draw do
 resources :users
 resources :organisms
 resources :walks
-get '/signup', to: 'users#new'
+
+get '/signup', to: 'users#new', as: 'signup'
 get '/signin', to: 'sessions#new'
-get '/logout', to: 'sessions#destroy'
 post '/signin', to: 'sessions#create'
+delete '/signout', to: 'sessions#destroy'
+
 
 root to: 'welcome#index'
 
