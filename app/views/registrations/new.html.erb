@@ -1,12 +1,16 @@
 <h1>Sign Up</h1>
 
-<%= form_for @user do |f| %>
+<%= form_for(@user) do |f| %>
 <%= f.label :name%>
 <%= f.text_field :name %><br/>
+<%= f.label :username %>
+<%= f.text_field :username %></br>
 <%= f.label :password%>
 <%= f.password_field :password %><br/>
 <%= f.label :location%>
 <%= f.text_field :location %><br/>
+<%= f.label :interest %>
+<%= f.text_field :interest %></br>
 <%= f.label :nature_lover_level%>
 <%= f.text_field :nature_lover_level %><br/>
 <%= f.submit %>
