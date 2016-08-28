@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 before_action :set_user, only: [:show, :edit, :update, :destroy]
-
+before_action :require_login, only: [:show]
   def index
     @users = User.all
   end
@@ -41,6 +41,9 @@ before_action :set_user, only: [:show, :edit, :update, :destroy]
   private
     def user_params
       params.require(:user).permit(:name, :password, :location, :nature_lover_level, :username, :interest)
+    end
+    def require_login
+      redirect_to '/' unless session.include? :user_id
     end
 
     def set_user

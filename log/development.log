@@ -54590,3 +54590,774 @@ Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:49:24 -0400
 
 
 Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:49:24 -0400
+
+
+Started GET "/" for ::1 at 2016-08-28 16:54:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 198ms (Views: 197.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:54:40 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:54:41 -0400
+
+
+Started GET "/users" for ::1 at 2016-08-28 16:54:43 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 36ms (Views: 27.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:54:43 -0400
+
+
+Started GET "/signin" for ::1 at 2016-08-28 16:54:46 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:54:46 -0400
+
+
+Started POST "/signin" for ::1 at 2016-08-28 16:54:56 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XGh18sUYB40H2h9oqwmCX9px8ZsO1qS9GE/PvvXgljUWX9krcDkx9ySLZChYnCjoF0mHoQCdi2YbWGKukFwRVQ==", "user"=>{"username"=>"KhaledaNYC", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/signin" for ::1 at 2016-08-28 16:54:56 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:54:56 -0400
+
+
+Started GET "/" for ::1 at 2016-08-28 16:54:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:54:59 -0400
+
+
+Started GET "/signin" for ::1 at 2016-08-28 16:55:01 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:55:01 -0400
+
+
+Started POST "/signin" for ::1 at 2016-08-28 16:55:11 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zd5fRNfVHTHdOm4iFCBSJMvmt31i7Pw6K7hGQQG82fMv6fOdYvQrS/5rFWLntfiTBt7BR2yn0+Eor+tRZABekw==", "user"=>{"username"=>"KhaledaNYC", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."name" IS NULL LIMIT 1
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/signin" for ::1 at 2016-08-28 16:55:11 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:55:11 -0400
+
+
+Started POST "/signin" for ::1 at 2016-08-28 16:56:31 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cFktxM0Qt6DDYMeV1odGHj4/m+bXJIg0VfsO8Y60vlY6boEdeDGB2uAxvNUlEuyp8wft3Nlvp+9W7KPh6wg5Ng==", "user"=>{"username"=>"KhaledaNYC", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "KhaledaNYC"]]
+Redirected to http://localhost:3000/users.1
+Completed 302 Found in 101ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users.1" for ::1 at 2016-08-28 16:56:31 -0400
+Processing by UsersController#index as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/organism.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/registrations.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/user.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/walk.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/organism.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/registrations.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/user.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/walk.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-08-28 16:56:31 -0400
