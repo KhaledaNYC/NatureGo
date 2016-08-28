@@ -4,6 +4,10 @@ Interest: <%= @user.interest %> <br>
 Location: <%= @user.location %> <br>
 Nature Lover Level: <%= @user.nature_lover_level %><br>
 
+Sightings:<br>
+<% @user.organisms.each do |organism| %>
+<%= link_to organism.species, organism_path(organism) %><br>
+<% end  %>
 
 <%= link_to 'Talk a walk' , organisms_path %><br>
 <%= link_to 'Sign Out' , signout_path %><br>

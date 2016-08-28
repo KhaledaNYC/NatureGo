@@ -1,4 +1,4 @@
-class OrganismController < ApplicationController
+class OrganismsController < ApplicationController
   def index
     @organisms = Organism.all
   end
@@ -9,6 +9,8 @@ class OrganismController < ApplicationController
 
   def create
     @organism = Organism.create(organism_params)
+    @organism.users << User.find(1)
+    redirect_to organism_path(@organism)
   end
 
   def show
@@ -20,6 +22,6 @@ class OrganismController < ApplicationController
 
   private
     def organism_params
-      params.require(:organims).permit(:species,:group,:location)
+      params.require(:organism).permit(:species,:group,:location)
     end
 end
