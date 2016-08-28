@@ -10,15 +10,13 @@ before_action :require_login, only: [:show]
   end
 
   def create
-
     @user = User.new(user_params)
-
         if @user.save
             session[:user_id] = @user.id
             redirect_to user_path(@user)
-        else
-            render 'new'
-        end
+      else
+          render 'new'
+      end
   end
 
   def show
@@ -35,7 +33,9 @@ before_action :require_login, only: [:show]
     end
   end
 
-  def delete
+  def destroy
+    @user.destroy
+    redirect_to new_user_path
   end
 
   private

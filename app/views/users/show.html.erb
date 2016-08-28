@@ -6,9 +6,11 @@ Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
-<li><%= link_to organism.species.upcase!, organism_path(organism) %></li>
+  
+<li><%= link_to organism.species, organism_path(organism) %></li>
 <% end  %><br>
 
 <strong><%= link_to 'Take a walk' , new_organism_path %><br><br>
   <%= link_to 'Edit your profile', edit_user_path %><br>
+  <%= link_to 'Delete your profile', delete_profile_path  %><br>
 <%= link_to 'Sign Out' , signout_path %><br>
