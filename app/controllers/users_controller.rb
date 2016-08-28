@@ -17,6 +17,7 @@ before_action :set_user, only: [:show, :edit, :update, :destroy]
             session[:user_id] = @user.id
             redirect_to user_path(@user)
         else
+            flash[:notice] = 'username or password not correct'
             render 'new'
         end
   end
