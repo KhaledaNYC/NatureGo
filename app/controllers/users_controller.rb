@@ -10,7 +10,7 @@ before_action :set_user, only: [:show, :edit, :update, :destroy]
   end
 
   def create
-      #binding.pry
+
     @user = User.new(user_params)
 
         if @user.save
@@ -29,7 +29,7 @@ before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   private
     def user_params
-      params.require(:user).permit(:name, :password, :location, :nature_lover_level,:username )
+      params.require(:user).permit(:name, :password, :location, :nature_lover_level, :username, :interest)
     end
 
     def set_user
