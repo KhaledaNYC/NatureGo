@@ -6,13 +6,14 @@ Interest: <%= @user.interest %> <br>
 Location: <%= @user.location %> <br>
 Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 
+<div id="links_on_org">
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
 
-<li><%= link_to organism.species, organism_path(organism) %></li>
+<li><%= link_to organism.species, organism_path(organism), id: "links_on_org" %></li>
 <% end  %><br>
 
-<strong><%= link_to 'Take a walk' , new_organism_path %><br><br>
-  <%= link_to 'Edit your profile', edit_user_path %><br>
-  <%= link_to 'Delete your profile', delete_profile_path  %><br>
-<%= link_to 'Sign Out' , signout_path %><br>
+<strong><%= link_to 'Take a walk' , new_organism_path, id: "links_on_org"  %><br><br>
+  <%= link_to 'Edit your profile', edit_user_path, id: "links_on_org"  %><br>
+  <%= link_to 'Delete your profile', delete_profile_path, id: "links_on_org"   %><br>
+<%= link_to 'Sign Out' , signout_path, id: "links_on_org"  %><br>

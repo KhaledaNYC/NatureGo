@@ -7,11 +7,14 @@
  */
 
 /* Links */
- a,
-a:focus,
-a:hover {
-color: #FFFFFF;
-}
+// a,
+// a:focus,
+// a:hover {
+//   color: #fff;
+//   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+//   // -webkit-text-stroke: 1px black;
+//
+// }
 
 // /* Custom default button */
 // .btn-default,
@@ -52,24 +55,16 @@ h1 {
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-p {
+.tagline {
     // color: #858181;
     color: #000000;
     text-align: center;
 }
 
-.links {
-    color: #FFFFFF;
+
+#link_welcome_page  {
+    color: #fff;
 }
-
-// body {
-//     -webkit-text-stroke: 1px black;
-//   color: #fff;
-//   text-align: center;
-//   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-//   -webkit-text-stroke: 1px black
-// }
-
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 // .site-wrapper {
