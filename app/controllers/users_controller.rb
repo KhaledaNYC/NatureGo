@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 before_action :set_user, only: [:show, :edit, :update, :destroy]
-before_action :require_login, only: [:show]
+before_action :require_login, only: [:show,:destroy]
   def index
     @users = User.all
   end
@@ -25,17 +25,21 @@ before_action :require_login, only: [:show]
   def edit
   end
   def update
-  @user = User.find(params[:id])
-    if @user.update(user_params)
-      redirect_to user_path(@user)
-    else
-      render 'edit'
+    @user = User.find(params[:id])
+      if @user.update(user_params)
+        redirect_to user_path(@user)
+      else
+        render 'edit'
+      end
     end
-  end
 
   def destroy
+    if @user.id == session[:user_id]
     @user.destroy
     redirect_to new_user_path
+    else
+      redirect_to new_user_path
+  end
   end
 
   private
