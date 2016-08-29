@@ -1,29 +1,25 @@
 <%= stylesheet_link_tag "user" %>
 <h1> Welcome <%= @user.username %>!</h1>
 
-<%= image_tag @user.image.url(:medium) %><br>
+<img class="img-circle" <%= image_tag @user.image.url(:medium) %>><br>
 
-<strong>Location:</strong> <%= @user.location %> <br>
-<strong>Interests:</strong> <%= @user.interest %> <br>
+<p style="color: black; font-size: 16px">Location: <%= @user.location %> <br>
+Interests: <%= @user.interest %> <br>
 
-<strong>Nature Lover Level:</strong> <%= @user.nature_lover_level %><br><br>
+Nature Lover Level: <%= @user.nature_lover_level %><br><br></p>
 
 
 <div id="links_on_org">
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
-
-
-<li><%= link_to organism.species, organism_path(organism) %> -
-  <%= organism.location %>
-<%= organism.created_at.strftime("on %m/%d/%Y") %></li>
+<li style="color: black; font-size: 16px"><%= link_to organism.species, organism_path(organism), id: "links_on_org" %> -
+  <%= organism.location%>
+  <%= organism.created_at.strftime("on %m/%d/%Y") %></li>
 <% end  %><br>
 
 
-<li><%= link_to organism.species, organism_path(organism), id: "links_on_org" %></li>
-<% end  %><br>
 
-<strong><%= link_to 'Take a walk' , new_organism_path, id: "links_on_org"  %><br><br>
+<%= link_to 'Take a walk' , new_organism_path, id: "links_on_org"  %><br><br>
   <%= link_to 'Edit your profile', edit_user_path, id: "links_on_org"  %><br>
   <%= link_to 'Delete your profile', delete_profile_path, id: "links_on_org"   %><br>
 <%= link_to 'Sign Out' , signout_path, id: "links_on_org"  %><br>

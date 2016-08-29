@@ -41,6 +41,7 @@
 //   background-color: #333;
 // }
 
+
 body {
   background: url("Nature1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -93,12 +94,16 @@ input {
   margin: 2px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
+  color: black;
 }
 
 input[type=submit] {
     color: #000000;
 }
-
+.img-circle {
+    border-radius: 75%;
+    border-color: black;
+}
 
 // body {
 //     -webkit-text-stroke: 1px black;

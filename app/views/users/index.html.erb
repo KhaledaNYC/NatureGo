@@ -4,14 +4,10 @@
 <h1>NatureGo Directory</h1>
 <table>
 
-<tr>
-    <th>Name</th>
 
-    <th>Interest</th>
-  </tr>
 <% @users.each do |user| %>
-<td><%= link_to user.name, user_path(user), id: "links_on_directory" %></td>
-  <td><%= user.interest%></td>
+  <div><%= link_to user.name, user_path(user) %></div>
+  <%= user.interest%><br>
 <% end %>
 </table>
 </div>
