@@ -1,16 +1,16 @@
-<h1> Welcome <%= @user.name.capitalize %>!</h1>
+<h1> Welcome <%= @user.username %>!</h1>
 
 <%= image_tag @user.image.url(:medium) %><br>
 
-Handle:  <%= @user.username %><br>
-Interest: <%= @user.interest %> <br>
-Location: <%= @user.location %> <br>
-Nature Lover Level: <%= @user.nature_lover_level %><br><br>
+<strong>Location:</strong> <%= @user.location %> <br>
+<strong>Interests:</strong> <%= @user.interest %> <br>
+
+<strong>Nature Lover Level:</strong> <%= @user.nature_lover_level %><br><br>
 
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
 
-<li><%= link_to organism.species, organism_path(organism) %> at
+<li><%= link_to organism.species, organism_path(organism) %> in
   <%= organism.location %>
 <%= organism.created_at.strftime("on %m/%d/%Y") %></li>
 <% end  %><br>

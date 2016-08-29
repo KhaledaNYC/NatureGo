@@ -24,6 +24,7 @@ before_action :require_login, only: [:show,:destroy]
 
   def edit
   end
+
   def update
     @user = User.find(params[:id])
       if @user.update(user_params)
