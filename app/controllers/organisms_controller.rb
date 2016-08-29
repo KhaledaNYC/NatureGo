@@ -1,3 +1,5 @@
+require 'pry'
+
 class OrganismsController < ApplicationController
   def index
     @organisms = Organism.all
@@ -8,9 +10,17 @@ class OrganismsController < ApplicationController
   end
 
   def create
-    @organism = Organism.create(organism_params)
-    @organism.users << User.find(1)
-    redirect_to organism_path(@organism)
+    @organism = Organism.find_by(species: params[:species])
+
+     #if @organism.id == nil
+      @organism = Organism.create(organism_params)
+      binding.pry
+      @organism.users << User.find(current_user)
+      redirect_to organism_path(@organism)
+    # else
+    #   @organism.users << User.find(current_user)
+    #   redirect_to organism_path(@organism)
+    # end
   end
 
   def show

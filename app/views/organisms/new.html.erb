@@ -1,9 +1,11 @@
 <h1> NatureWalk </h1>
 <%= form_for(@organism) do|f| %>
 
-What did you see? <%= f.text_field :species %><br>
+What did you see?
+
+<%= f.text_field :species %><br>
 Where did you see it? <%= f.text_field :location%><br>
 Group of Organism('bird','mammal'): <%= f.text_field :group %><br>
-<%= f.submit %>
+<%= f.submit "Submit Walk"%>
 
 <% end %>
