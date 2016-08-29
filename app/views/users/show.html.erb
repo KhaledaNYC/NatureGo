@@ -1,4 +1,6 @@
 <h1> Welcome <%= @user.name.capitalize %>!</h1>
+
+<%= image_tag @user.avatar.url(:medium) %>
 Handle:  <%= @user.username %><br>
 Interest: <%= @user.interest %> <br>
 Location: <%= @user.location %> <br>
@@ -13,6 +15,8 @@ Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 <% end  %><br>
 
 <strong><%= link_to 'Take a walk' , new_organism_path %><br><br>
+
+
   <%= link_to 'Edit your profile', edit_user_path %><br>
   <%= link_to 'Delete your profile', delete_profile_path  %><br>
 <%= link_to 'Sign Out' , signout_path %><br>
