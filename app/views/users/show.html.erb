@@ -10,7 +10,7 @@
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
 
-<li><%= link_to organism.species, organism_path(organism) %> in
+<li><%= link_to organism.species, organism_path(organism) %> -
   <%= organism.location %>
 <%= organism.created_at.strftime("on %m/%d/%Y") %></li>
 <% end  %><br>
