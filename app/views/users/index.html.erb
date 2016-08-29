@@ -1,3 +1,6 @@
+<%= stylesheet_link_tag "user" %>
+
+<div id="links_on_director">
 <h1>NatureGo Directory</h1>
 <table>
 
@@ -7,11 +10,8 @@
     <th>Interest</th>
   </tr>
 <% @users.each do |user| %>
-<tr>
-  <td><%= link_to user.name, user_path(user) %></td>
+<td><%= link_to user.name, user_path(user), id: "links_on_directory" %></td>
   <td><%= user.interest%></td>
-</tr>
-<br>
-
 <% end %>
 </table>
+</div>

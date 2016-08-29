@@ -1,3 +1,5 @@
+
+
 class OrganismsController < ApplicationController
   def index
     @organisms = Organism.all
@@ -8,7 +10,6 @@ class OrganismsController < ApplicationController
   end
 
   def create
-    
       @organism = Organism.find_by(species: params[:organism][:species])
         if @organism == nil
           @organism = Organism.create(organism_params)
@@ -26,8 +27,7 @@ class OrganismsController < ApplicationController
           @organism.save
           redirect_to organism_path(@organism)
         end
-
-  end
+      end
 
   def show
     @organism = Organism.find(params[:id])

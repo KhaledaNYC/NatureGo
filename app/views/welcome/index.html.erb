@@ -1,7 +1,19 @@
+<%= stylesheet_link_tag "welcome" %>
 
-<h1>Welcome to Nature GOoooooooo!</h1>
+
+
+
+<h1>Welcome to Nature Go!</h1></br>
+
+<div class="tag_line">
+<p><em>A networking site for nature lovers</em></p>
+</div>
 
 </br>
-<%= link_to "Sign Up", signup_path %></br>
-<%= link_to "Sign In", signin_path %></br>
-<%= link_to "See Who's on Nature Go", users_path  %>
+
+<div id="link_welcome_page">
+<%= link_to "Sign Up", signup_path, id: "link_welcome_page" %></br>
+<%= link_to "Sign In", signin_path, id: "link_welcome_page"  %></br>
+<%= link_to "See Who's On Nature Go", users_path, id: "link_welcome_page"   %>
+
+</div>
