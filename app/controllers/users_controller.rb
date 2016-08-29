@@ -44,7 +44,7 @@ before_action :require_login, only: [:show,:destroy]
 
   private
     def user_params
-      params.require(:user).permit(:name, :password, :location, :nature_lover_level, :username, :interest)
+      params.require(:user).permit(:name, :password, :location, :nature_lover_level, :username, :interest,:image)
     end
     def require_login
       redirect_to '/' unless session.include? :user_id

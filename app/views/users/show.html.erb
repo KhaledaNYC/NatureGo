@@ -1,6 +1,7 @@
 <h1> Welcome <%= @user.name.capitalize %>!</h1>
 
-<%= image_tag @user.avatar.url(:medium) %>
+<%= image_tag @user.image.url(:medium) %><br>
+
 Handle:  <%= @user.username %><br>
 Interest: <%= @user.interest %> <br>
 Location: <%= @user.location %> <br>
