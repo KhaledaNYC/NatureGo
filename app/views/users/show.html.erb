@@ -1,4 +1,4 @@
-
+<%= stylesheet_link_tag "user" %>
 
 <h1> Welcome <%= @user.name.capitalize %>!</h1>
 Handle:  <%= @user.username %><br>
@@ -8,7 +8,7 @@ Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
-  
+
 <li><%= link_to organism.species, organism_path(organism) %></li>
 <% end  %><br>
 

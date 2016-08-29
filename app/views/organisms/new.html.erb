@@ -1,11 +1,18 @@
+<%= stylesheet_link_tag "organism" %>
+
 <h1> NatureWalk </h1>
+
+<div class="form">
 <%= form_for(@organism) do|f| %>
 
-What did you see?
-
-<%= f.text_field :species %><br>
-Where did you see it? <%= f.text_field :location%><br>
-Group of Organism('bird','mammal'): <%= f.text_field :group %><br>
+<p>What did you see?</p>
+<%= f.text_field :species %></br></br>
+<p>Where did you see it?</p>
+<%= f.text_field :location%></br></br>
+<p>Group of Organism ('bird', 'mammal'): </p>
+<%= f.text_field :group %></br></br>
 <%= f.submit "Submit Walk"%>
 
 <% end %>
+
+</div>
