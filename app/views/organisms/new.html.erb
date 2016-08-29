@@ -9,3 +9,5 @@ Group of Organism('bird','mammal'): <%= f.text_field :group %><br>
 <%= f.submit "Submit Walk"%>
 
 <% end %>
+
+<% User.find(current_user).nature_lover_level += 1 %>

@@ -8,15 +8,13 @@ class OrganismsController < ApplicationController
   end
 
   def create
-    @organism = Organism.find_by(species: params[:species])
-    # if @organism == nil
+    
       @organism = Organism.create(organism_params)
-      @organism.users << User.find(current_user)
+      walk_user = User.find(current_user)
+      walk_user.add_to_nature_lover_level
+      walk_user.save
+      @organism.users << walk_user
       redirect_to organism_path(@organism)
-    # else
-    #   @organism.users << User.find(current_user)
-    #   redirect_to organism_path(@organism)
-    # end
   end
 
   def show

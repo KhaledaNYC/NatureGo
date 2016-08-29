@@ -27,9 +27,9 @@ ActiveRecord::Schema.define(version: 20160826195522) do
     t.string   "password_digest"
     t.string   "location"
     t.string   "interest"
-    t.integer  "nature_lover_level"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.integer  "nature_lover_level", default: 0
+    t.datetime "created_at",                     null: false
+    t.datetime "updated_at",                     null: false
   end
 
   create_table "walks", force: :cascade do |t|

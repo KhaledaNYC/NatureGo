@@ -6,7 +6,7 @@ Nature Lover Level: <%= @user.nature_lover_level %><br><br>
 
 <h3>Sightings:</h3>
 <% @user.organisms.each do |organism| %>
-  
+
 <li><%= link_to organism.species, organism_path(organism) %></li>
 <% end  %><br>
 
